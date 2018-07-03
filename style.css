@@ -82,6 +82,18 @@ body {
     font-weight: 400;
 }
 
+
+#indice .unit-content .actividades .item .title {
+	    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    display: inline-block;
+    color: #5c5c5c;
+    max-width: 310px;
+}
+
+
 #indice .units ul li {
 	-webkit-border-radius: 0px;
 	   -moz-border-radius: 0px;
@@ -127,6 +139,9 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     padding-left: 25px;
     opacity: 1;
 }
+
+
+
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 #book-index #indice .unit-content .actividades .item.active,
@@ -530,6 +545,13 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     padding-left: 25px;
     opacity: 1;
 }
+
+#indice .unit-content .actividades {
+    border-top: 1px solid #6eaa6f;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
 
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active, #book-index #indice .unit-content .actividades .item.active, #book-index #indice .unit-content .actividades .item.current {
@@ -1321,12 +1343,14 @@ table td.bck-td-4 {
 
 .btn-primary, .btn-primary.disabled {
 	background: #6eaa6f;
+	border-radius: 0px;
 }
 
 
 
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
-    background-color: #9ACB1E;
+    background-color: #6eaa6f;
+    border-radius: 0px;
 }
 
 /**/
