@@ -506,6 +506,42 @@ body:not(.edit) .slider-indicators {
 }
 /**/
 
+
+/*indice*/
+
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+	    color: #fff;
+    background: #6eaa6f;
+}
+
+#book-index .col-main {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #6eaa6f;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+#book-index #indice .unit-content .actividades .item {
+    background: #c2d7c2;
+    margin: 0px -20px 2px -20px;
+    padding-left: 25px;
+    opacity: 1;
+}
+
+
+body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active, #book-index #indice .unit-content .actividades .item.active, #book-index #indice .unit-content .actividades .item.current {
+    background: #2d2d28;
+}
+body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, #book-index #indice .unit-content .actividades .item.active, #book-index #indice .unit-content .actividades .item.current {
+    color: #fff;
+    background: #7aa07a;
+}
+
+
+
 #actividad .content .normal-img,  #actividad .content figure.normal-img img {
 	border: none;
 	-webkit-border-radius: 0;
