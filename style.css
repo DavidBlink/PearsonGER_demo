@@ -108,7 +108,7 @@ body {
 #indice .units ul li.hover:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:hover:not(.disabled) {
-    background: #9eb29e;
+    background: #6eaa6f;
 }
 
 #book-index #indice .unit-content a,
@@ -552,7 +552,36 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     margin-bottom: 90px;
 }
 
+#indice .unit-content .header .title {
+    color: #fff;
+    float: left;
+    font-size: 28px;
+    font-weight: 700;
+    height: 80px;
+    line-height: 34px;
+    margin: 20px 140px 20px 30px;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background-color: #33333380;
+}
 
+
+#indice .units ul li {
+    background: #e4e4e4;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    margin-bottom: 8px;
+    padding: 8px 16px;
+    border-left: 5px solid #6eaa6f;
+}
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active, #book-index #indice .unit-content .actividades .item.active, #book-index #indice .unit-content .actividades .item.current {
     background: #2d2d28;
