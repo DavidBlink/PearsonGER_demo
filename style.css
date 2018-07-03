@@ -843,7 +843,7 @@ color: #a3bd31;
 /*CAJA2*/
 
 .bck-box.bck-box-2 {
-	background: #F3F4E2;
+	background: #acc33f;
 	border: 2px solid #9BCB20;
 	-webkit-border-radius: 7px;
 	   -moz-border-radius: 7px;
@@ -876,6 +876,39 @@ color: #a3bd31;
 	color: #9ac61e;
 	margin-right: 10px;
 }
+
+
+/*CAJA3*/
+
+.bck-box.bck-box-3 {
+    min-height: 80px;
+    margin-top: 15px;
+}
+
+.bck-box-3 .bck-title {
+   border-bottom: 0px solid #eee;
+    color: #ffffff;
+    background-color: #acc33f;
+    padding: 20px 10px 20px 30px;
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.bck-box.bck-box-3 .bck-content {
+    padding: 30px;
+    background-color: #f0f4dd;
+}
+
+.bck-box.bck-box-3:before {
+	display: none;
+}
+
+.bck-box.bck-box-3:after {
+	display: none;
+}
+
 
 #actividad .content .bck-box.bck-box-2 .header.bck-title .title {
 	display: inline-block;
@@ -1485,7 +1518,7 @@ table td.bck-td-4 {
 
 .bck-dropdown-2 .bck-dropdown-button {
 	margin-top: 20px;
-	background: #E76048;
+	background: #acc33f;
 	color: #fff;
 	text-align: center;
 	border: 1px solid #dcdada;
