@@ -1,2 +1,0 @@
-# PearsonGER_demo
-
