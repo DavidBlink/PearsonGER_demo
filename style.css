@@ -180,7 +180,7 @@ input, button, select, textarea {
 	padding-bottom: 0px;
 }
 
-.PearsonND_demo-navbar h3 {
+.PearsonGER_demo-navbar h3 {
 	width: 75%;
 	margin: auto;
 	margin-bottom: 15px;
@@ -323,7 +323,7 @@ fieldset[disabled] .slide_main input {
     background: linear-gradient(to left, #7aac39, transparent);
 }
 
-.PearsonND_demo-navbar {
+.PearsonGER_demo-navbar {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -334,7 +334,7 @@ fieldset[disabled] .slide_main input {
     background: #545759;;
 }
 
-body.is_app .PearsonND_demo-navbar {
+body.is_app .PearsonGER_demo-navbar {
 	/*top: 0;*/
 	-webkit-transition: top 0.5s linear;
 	-o-transition: top 0.5s linear;
@@ -342,11 +342,11 @@ body.is_app .PearsonND_demo-navbar {
 	transition: top 0.5s linear;
 }
 
-body.is_app .PearsonND_demo-navbar.ocultar {
+body.is_app .PearsonGER_demo-navbar.ocultar {
 	top: -136px;
 }
 
-.PearsonND_demo-navbar .navbar-content {
+.PearsonGER_demo-navbar .navbar-content {
 	width: 100%;
 	height: 100%;
 	padding: 0 20px;
@@ -376,7 +376,7 @@ body:not(.edit) .slider-indicators {
 	display: none;
 }
 
-.PearsonND_demo-navbar .copyright {
+.PearsonGER_demo-navbar .copyright {
 	color: #fff;
 	line-height: 5.0rem;
 }
