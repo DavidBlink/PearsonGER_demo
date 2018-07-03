@@ -229,7 +229,7 @@ body.is_app #actividad .class_slide {
 }
 
 #actividad .content .header .title {
-	min-height: 0px;
+	display: none;
 }
 
 #actividad .content .header .title h3 {
@@ -527,11 +527,10 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-i-fullscreen figcaption {
-	border-bottom: 2px solid black;
-	-webkit-border-radius: 5px;
-	   -moz-border-radius: 5px;
-	        border-radius: 5px;
-	background: #FDFDFD;
+	border-bottom: 0px solid black;
+    margin-bottom: 15px;
+    color: #5b5a5d;
+    border-radius: 5px;
 }
 
 #actividad .player.audio {
@@ -552,17 +551,24 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-title-1 {
-    color: #6f6a66;
+    color: #211915;
+    border-bottom: 1px solid #211915;
+    font-size: 2.2rem;
+    font-weight: bold;
 }
 
 .bck-title-1:before {
-	content: '\f101';
-	margin-right: 10px;
-	font-family: 'FontAwesome';
+	display: none;
 }
 
+.bck-title-2 {
+color: #a3bd31;
+}
+
+
 .bck-title-3 {
-    font-size: 1.7rem;
+   color: #211915;
+   font-size: 1.9rem;
 }
 
 .bck-enfasis {
@@ -773,54 +779,29 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-box-1 .bck-title {
-    border-bottom: 0px solid #eee;
-    color: #9acb1e;
+   border-bottom: 0px solid #eee;
+    color: #ffffff;
+    background-color: #007dc1;
+    padding: 20px 10px 20px 30px;
     font-size: 2.1rem;
     font-weight: bold;
+    text-align: left;
+}
 }
 
 .bck-box.bck-box-1 .bck-content {
-    padding-left: 80px;
+    padding: 30px;
+    border: 2px solid;
+    border-color: #007dc1;
+    background-color: #edf3fa;
 }
 
 .bck-box.bck-box-1:before {
-	content: "\f0eb";
-	position: absolute;
-	top: 3px;
-	left: 5px;
-	z-index: 100;
-	width: 62px;
-	height: 62px;
-    border: 5px solid #fff;
-	-webkit-border-radius: 100%;
-	   -moz-border-radius: 100%;
-	        border-radius: 100%;
-    padding: 17px 3px 5px 5px;
-	color: white;
-	font-size: 3.5rem;
-    font-family: 'FontAwesome';
+	display: none;
 }
 
 .bck-box.bck-box-1:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	right: -14px;
-	z-index: -5;
-	width: 100%;
-	height: 100%;
-	background: #F3F4E2;
-    border-right: 14px solid #9AC61E;
-    -moz-transform: none;
-      -o-transform: none;
-         transform: none;
-    -ms-transform: skewX(-10deg);
-    -webkit-transform: skewX(-10deg);
-    -webkit-transform-origin: bottom right;
-       -moz-transform-origin: bottom right;
-        -ms-transform-origin: bottom right;
-         -o-transform-origin: bottom right;
-            transform-origin: bottom right;
+	display: none;
 }
 
 /*CAJA2*/
