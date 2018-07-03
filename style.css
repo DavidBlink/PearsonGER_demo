@@ -90,13 +90,13 @@ body {
 
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-    background: #E76048;
+    background: #6eaa6f;
 }
 
 #indice .units ul li.hover:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:hover:not(.disabled) {
-    background: #EC968C;
+    background: #9eb29e;
 }
 
 #book-index #indice .unit-content a,
@@ -843,7 +843,7 @@ color: #a3bd31;
 /*CAJA2*/
 
 .bck-box.bck-box-2 {
-	background: #acc33f;
+	background: #f3f7e3;
 	border: 2px solid #9BCB20;
 	-webkit-border-radius: 7px;
 	   -moz-border-radius: 7px;
@@ -1318,6 +1318,12 @@ table td.bck-td-4 {
 .cke_reset {
     background: white;
 }
+
+.btn-primary, .btn-primary.disabled {
+	background: #6eaa6f;
+}
+
+
 
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
     background-color: #9ACB1E;
