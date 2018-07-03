@@ -84,12 +84,12 @@ body {
 
 
 #indice .unit-content .actividades .item .title {
-	    word-wrap: break-word;
-    font-size: 18px;
-    font-weight: 700;
+    word-wrap: break-word;
+    font-size: 17px;
+    font-weight: 600;
     margin: 0;
     display: inline-block;
-    color: #5c5c5c;
+    color: #585858;
     max-width: 310px;
 }
 
