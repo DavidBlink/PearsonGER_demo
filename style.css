@@ -140,7 +140,14 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     opacity: 1;
 }
 
-
+#indice .units ul li a .title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5a8a5b;
+    margin: -21px 0 0 35px;
+    line-height: 18px;
+    display: block;
+}
 
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
