@@ -1524,13 +1524,34 @@ table td.bck-td-4 {
 
 /**iframe**/
 
+/*actividades interactivas*/
+.bck-activity-link-container {
+    background: #fff;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
 #iframe_div.scorm {
-    width: 100% ! important;
-    height: 100% ! important;
-    top: 0px ! important;
-    left: 0px ! important;
+    width: 95% ! important;
+    height: 95% ! important;
+    top: 3% ! important;
+    left: 3% ! important;
     background-color: #CCCCCC;
 }
+
+.bck-file-attach span {
+    display: unset;
+    max-width: 75%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: #40e0d042;
+}
+
+#actividad .workspace.clasificar .clasificar_lista li>p {
+    padding: 0px 15px;
+}
+
 
 #iframe_div.scorm iframe#class_iframe {
     width: 100% ! important;
