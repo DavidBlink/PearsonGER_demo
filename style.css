@@ -634,12 +634,19 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
 	background-color: transparent;
 }
 
+
+/*titulos*/
+
+
 .bck-title {
 	border-bottom: 4px solid #eee;
     color: #9acb1e;
     font-size: 2.1rem;
     font-weight: bold;
 }
+
+
+/*1*/
 
 .bck-title-1 {
     color: #211915;
@@ -652,10 +659,13 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
 	display: none;
 }
 
+/*2*/
+
 .bck-title-2 {
 color: #a3bd31;
 }
 
+/*3*/
 
 .bck-title-3 {
    color: #211915;
@@ -665,6 +675,26 @@ color: #a3bd31;
 .bck-enfasis {
     color: #e76048;
     font-weight: bold;
+}
+
+
+/*4*/
+
+.bck-title-4 {
+    color: #a3bd31;
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+
+
+/*5*/
+.bck-title {
+    border: none;
+    color: #ffffff;
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 15px 0px 1px 0px;
+    line-height: 20px;
 }
 
 /*LISTAS DESORDENADAS*/
@@ -1131,13 +1161,10 @@ color: #a3bd31;
 }
 
 
-/*4*/
 
-.bck-title-4 {
-    color: #a3bd31;
-    font-size: 3.1rem;
-    font-weight: bold;
-}
+
+
+
 
 /*enlace actividades*/
 
