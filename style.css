@@ -690,10 +690,10 @@ color: #a3bd31;
 /*5*/
 .bck-title-5 {
     border: none;
-    color: #ffffff;
+    color: #a3bd31;
     font-size: 2.4rem;
-    font-weight: 500;
-    padding: 15px 0px 1px 0px;
+    font-weight: 700;
+    padding: 15px 0px 11px 0px;
     line-height: 20px;
 }
 
@@ -1170,12 +1170,23 @@ color: #a3bd31;
 
 .texto_curso .bck-activity-link, .texto_curso .bck-link {
     cursor: pointer;
-    background: #a3bd31;
+    background: #edefe5;
     text-align: center;
-    line-height: 10px;
     padding-bottom: 10px;
     border-radius: 2px;
+    border: 2px solid #a3bd31;
     
+}
+
+/*enlace actividades hover*/
+
+.texto_curso .bck-activity-link:hover, .texto_curso .bck-link {
+    background: #e6ecd1;
+    -webkit-transition: background 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out;
+    -ms-transition: background 0.5s ease-in-out;
+    -o-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
 }
 
 
