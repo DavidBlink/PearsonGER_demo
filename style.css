@@ -1790,6 +1790,20 @@ table td.bck-td-4 {
 
 /****/
 
+@media (max-width: 579px) {
+
+#book-index .col-main .header .title {
+    color: #fff;
+    height: auto;
+    margin: 0 0 40px 0;
+    font-size: 22px;
+    height: auto;
+    background: #00000000;
+
+}
+}
+
+
 @media screen and (max-width: 768px) {
 
 	#actividad .carousel-inner .class_slide {
